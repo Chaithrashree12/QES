@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>CS Department</title>
+        <link rel="stylesheet" href="style4.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+     <form action="connect.php" method="post"> 
+        <section class="header">
+            
+                <div class="nav-links"></div>
+               
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question Text</h2>
+          <ul>
+              <h3>1. Floating point representation is used to store </h3><br/>
+            <li>
+              <input type="radio" name="a" id="a" class="answer">
+              <label for="a" id="a_text">Boolean values</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="b" id="b" class="answer">
+              <label for="b" id="b_text">whole numbers</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="c" id="c" class="answer">
+              <label for="c" id="c_text">real integers</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="d" id="d" class="answer">
+              <label for="d" id="d_text">integers</label>
+            </li>
+          </ul>
+          <ul>
+            <h3>2.What does inheriatance allows you to do?</h3><br/>
+          <li>
+            <input type="radio" name="a" id="a" class="answer">
+            <label for="a" id="a_text"> create a hierarchy of classes</label>
+          </li>
+  <br/>
+          <li>
+            <input type="radio" name="b" id="b" class="answer">
+            <label for="b" id="b_text">create a class</label>
+          </li>
+  <br/>
+          <li>
+            <input type="radio" name="c" id="c" class="answer">
+            <label for="c" id="c_text">access methods</label>
+          </li>
+  <br/>
+          <li>
+            <input type="radio" name="d" id="d" class="answer">
+            <label for="d" id="d_text">None of the mentioned</label>
+          </li>
+        </ul>
+         
+        </div>
+    <br/>
+       
+    <button id="submit">Submit</button>
+       
+        
+    
+      </div>
+
+
+<br/>
+<br/>
+<br/>
+<h4>Click on the icon to toggle between like / dislike:</h4>
+<br/>
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+<br/><br/>
+<h4>Comments:</h4>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+    Enter text here...</textarea>
+  </nav>
+</section>
+</form>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
+</body>
+            </html>

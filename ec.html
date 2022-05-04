@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>ECE Department</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+     <form action="connect.php" method="post"> 
+        <section class="header">
+            
+                <div class="nav-links"></div>
+               
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question Text</h2>
+          <ul>
+              <h3>1.A material has conductivity of 10-2 mho/m and a relative permittivity of 4. The frequency at which conduction current in the medium is equal to displacement current is </h3><br/>
+            <li>
+              <input type="radio" name="a" id="a" class="answer">
+              <label for="a" id="a_text">45 MHz</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="b" id="b" class="answer">
+              <label for="b" id="b_text">90 MHz</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="c" id="c" class="answer">
+              <label for="c" id="c_text">450 MHz</label>
+            </li>
+    <br/>
+            <li>
+              <input type="radio" name="d" id="d" class="answer">
+              <label for="d" id="d_text">900 MHz</label>
+            </li>
+    
+          </ul><p>Answer: Option A</p>
+          <ul>
+            <h3>2. 	
+                Poynting vector is associated with which of the following? </h3><br/>
+          <li>
+            <input type="radio" name="a" id="a" class="answer">
+            <label for="a" id="a_text">Power flow in electromagnetic</label>
+          </li>
+  <br/>
+          <li>
+            <input type="radio" name="b" id="b" class="answer">
+            <label for="b" id="b_text">Flux in magnetic field</label>
+          </li>
+  <br/>
+          <li>
+            <input type="radio" name="c" id="c" class="answer">
+            <label for="c" id="c_text">Charge in electrostatic field</label>
+          </li>
+  <br/>
+          <li>
+            <input type="radio" name="d" id="d" class="answer">
+            <label for="d" id="d_text">Current in electrostatic field</label>
+          </li>
+  
+        </ul>
+        </div>
+        <p>Answer: Option A</p>
+        
+        
+       
+    <button id="submit">Submit</button>
+       
+        
+    
+      </div>
+
+
+<br/>
+<br/>
+<br/>
+<h4> like / dislike:</h4>
+<br/>
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+<br/><br/>
+<h4>Comments:</h4>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+    Enter text here...</textarea>
+  </nav>
+</section>
+</form>
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
+</body>
+            </html>
